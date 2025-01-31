@@ -13,12 +13,13 @@ module.exports = {
       },
       fontFamily: {
         bv: ['Baskervville', 'serif'],
-        ds: ['Dancing Script', 'cursive'],
+        ps: ['El Messiri', 'sans-serif'],
       },
       colors: {
         'yellow-pastel': '#da9458',
         'cstm-brown': '#371406',
         'soft-brown': '#ecd6d0',
+        'auth-green': '#043427',
       },
     },
   },

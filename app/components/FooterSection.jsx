@@ -56,7 +56,7 @@ const FooterSection = () => {
                 Email
               </h4>
               <p className="text-xs lg:text-sm text-[whitesmoke]">
-                marketing@nusantaracollection.coffee
+                authentic.coffeee@gmail.com
               </p>
             </div>
           </div>
@@ -67,37 +67,37 @@ const FooterSection = () => {
               Social media
             </h4>
             <div className="flex gap-4 lg:gap-10 mt-2 mb-5 lg:my-3">
-              <div className="flex-none w-8 h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 relative">
+              <a href="https://www.instagram.com/authentic.coffee.id/" target="_blank" className="flex-none w-8 h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 relative">
                 <Image
                   src="/icons/Instagram.png"
                   alt="instagram"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
-              </div>
-              <div className="flex-none w-8 h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 relative">
+              </a>
+              <a href="https://www.tiktok.com/@authenticoffee.roastery" target="_blank" className="flex-none w-8 h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 relative">
                 <Image
-                  src="/icons/facebook.png"
-                  alt="facebook"
+                  src="/icons/tiktok.png"
+                  alt="tiktok"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
-              </div>
-              <div className="flex-none w-8 h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 relative">
+              </a>
+              <a href="https://wa.me/+6282168878887" target="_blank" className="flex-none w-8 h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 relative">
                 <Image
                   src="/icons/whatsapp-white.png"
                   alt="whatsapp"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
-              </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div className="flex items-center justify-center md:justify-start bg-[#473630] h-8 lg:h-10">
         <h6 className="mx-5 text-[10px] md:text-xs lg:text-sm font-semibold font-sans text-[whitesmoke]">
-          Copyright © 2024, Nusantara Collection
+          Copyright © 2024, Authentic Coffee & Roastery
         </h6>
       </div>
     </footer>

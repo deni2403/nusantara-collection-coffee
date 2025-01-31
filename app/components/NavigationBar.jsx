@@ -1,6 +1,6 @@
-'use client';
-import React, { useState } from 'react';
-import Image from 'next/image';
+"use client";
+import React, { useState } from "react";
+import Image from "next/image";
 
 const NavigationBar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -10,16 +10,16 @@ const NavigationBar = () => {
   };
 
   return (
-    <header className="bg-slate-900 absolute top-0 left-0 w-full flex items-center z-10">
+    <header className="bg-auth-green absolute top-0 left-0 w-full flex items-center z-10">
       <div className="container">
         <div className="flex item-center justify-between relative">
           <div className="px-4">
             <a
               href="#hero"
-              className="flex my-2 ml-4 md:ml-5 lg:ml-14 w-24 h-12 lg:w-36 relative"
+              className="flex my-2 ml-4 md:ml-5 lg:mt-3 lg:ml-20 w-24 h-12 lg:w-36 relative scale-x-[2] scale-y-[4] lg:scale-x-[2] lg:scale-y-[4.2]"
             >
               <Image
-                src="/images/logo.png"
+                src="/images/Logo.png"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 alt="logo"
@@ -33,7 +33,7 @@ const NavigationBar = () => {
               type="button"
               onClick={toggleHamburger}
               className={`block absolute right-4 ${
-                isActive ? 'hamburger-active' : ''
+                isActive ? "hamburger-active" : ""
               } lg:hidden`}
             >
               <span className="origin-top-left hamburger-line transition duration-300 ease-in-out" />
@@ -44,8 +44,8 @@ const NavigationBar = () => {
             <nav
               id="nav-menu"
               className={`${
-                isActive ? '' : 'hidden'
-              } absolute py-3 px-5 border border-white lg:border-none bg-slate-900 shadow-lg lg:shadow-none rounded-lg lg:rounded-none max-w-[180px] w-full right-4 top-full lg:block lg:static lg:max-w-full`}
+                isActive ? "" : "hidden"
+              } absolute py-3 px-5 border border-white lg:border-none bg-auth-green shadow-lg lg:shadow-none rounded-lg lg:rounded-none max-w-[180px] w-full right-4 top-full lg:block lg:static lg:max-w-full`}
             >
               <ul className="block lg:flex">
                 <li className="group">

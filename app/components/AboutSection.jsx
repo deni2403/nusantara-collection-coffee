@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const AboutSection = () => {
   return (
@@ -18,13 +18,14 @@ const AboutSection = () => {
         <div className="flex flex-col justify-center md:justify-normal mt-5 md:mt-0 ">
           <div className="mx-5 md:mx-0 md:mr-4 lg:mr-28 lg:pr-10">
             <h2 className="text-center md:text-left text-lg text-cstm-brown md:text-2xl lg:text-3xl font-medium tracking-wide">
-              We care about the quality of our{' '}
+              We care about the quality of our{" "}
               <span className="text-cstm-brown font-bold">products</span>
             </h2>
             <p className="text-center md:text-left mt-2 lg:my-4 text-cstm-brown text-xs lg:text-sm">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              enim consequatur suscipit fugit ad! Vitae quibusdam nam
-              recusandae.
+              We are dedicated to providing you with only the best, from
+              sourcing premium beans to perfecting the roasting process. Our
+              commitment is to deliver a rich and satisfying coffee experience,
+              one cup at a time.
             </p>
           </div>
           <div className="grid my-5 grid-cols-1 md:grid-cols-2 gap-6 md:gap-0">

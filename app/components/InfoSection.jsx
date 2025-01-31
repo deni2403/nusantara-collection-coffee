@@ -1,10 +1,13 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const InfoSection = () => {
   return (
-    <section id="info" className="min-h-[600px] md:min-h-[70vh] lg:min-h-screen mt-5 lg:mt-10">
+    <section
+      id="info"
+      className="min-h-[600px] md:min-h-[70vh] lg:min-h-screen mt-5 lg:mt-10"
+    >
       <div className="grid grid-cols-1 md:grid-cols-2">
         <article className="flex flex-col mx-5 md:mx-10 lg:mx-20">
           <h2 className="text-center md:text-left text-lg text-cstm-brown md:text-2xl lg:text-3xl font-semibold tracking-wide">
@@ -19,12 +22,13 @@ const InfoSection = () => {
             supplies.
           </p>
           <div className="flex justify-center">
-            <Link
-              href=""
+            <a
+              href="https://wa.me/+6282168878887"
+              target="_blank"
               className="bg-[#512818] shadow-lg text-[whitesmoke] text-sm md:text-base lg:text-lg font-medium rounded-full my-5 md:my-8 lg:my-12 px-6 py-3 md:px-7 md:py-4 lg:px-9 lg:py-4 hover:bg-amber-900 focus:bg-amber-900 active:bg-amber-900 duration-200 ease-in-out"
             >
-              See details here
-            </Link>
+              Contact us now
+            </a>
           </div>
         </article>
         <div className="flex justify-end mt-2 mx-5 md:m-0 lg:m-0">
