@@ -21,7 +21,14 @@ const InfoSection = () => {
             achieve perfect results. Join us for consistent and reliable coffee
             supplies.
           </p>
-          <div className="flex justify-center">
+          <div className="flex justify-evenly">
+          <a
+              href="/Price List.pdf"
+              target="_blank"
+              className="bg-[#512818] shadow-lg text-[whitesmoke] text-sm md:text-base lg:text-lg font-medium rounded-full my-5 md:my-8 lg:my-12 px-6 py-3 md:px-7 md:py-4 lg:px-9 lg:py-4 hover:bg-amber-900 focus:bg-amber-900 active:bg-amber-900 duration-200 ease-in-out"
+            >
+              Coffee Price List
+            </a>
             <a
               href="https://wa.me/+6282168878887"
               target="_blank"

@@ -13,10 +13,10 @@ const NavigationBar = () => {
     <header className="bg-auth-green absolute top-0 left-0 w-full flex items-center z-10">
       <div className="container">
         <div className="flex item-center justify-between relative">
-          <div className="px-4">
+          <div className="px-6">
             <a
               href="#hero"
-              className="flex my-2 ml-4 md:ml-5 lg:mt-3 lg:ml-20 w-24 h-12 lg:w-36 relative scale-x-[2] scale-y-[4] lg:scale-x-[2] lg:scale-y-[4.2]"
+              className="flex my-2 ml-4 md:ml-5 lg:mt-3 lg:ml-20 w-24 h-12 lg:w-36 relative scale-x-[2] scale-y-[4] lg:scale-x-[2] lg:scale-y-[5]"
             >
               <Image
                 src="/images/Logo.png"
