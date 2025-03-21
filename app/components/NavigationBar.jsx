@@ -19,7 +19,7 @@ const NavigationBar = () => {
               className="flex my-2 ml-4 md:ml-5 lg:mt-3 lg:ml-20 w-24 h-12 lg:w-36 relative scale-x-[2] scale-y-[4] lg:scale-x-[2] lg:scale-y-[5]"
             >
               <Image
-                src="/images/Logo.png"
+                src="/images/logo-new.png"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 alt="logo"

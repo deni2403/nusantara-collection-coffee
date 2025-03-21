@@ -67,7 +67,7 @@ const FooterSection = () => {
               Social media
             </h4>
             <div className="flex gap-4 lg:gap-10 mt-2 mb-5 lg:my-3">
-              <a href="https://www.instagram.com/authentic.coffee.id/" target="_blank" className="flex-none w-8 h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 relative">
+              <a href="https://www.instagram.com/authentic.coffee_roastery/" target="_blank" className="flex-none w-8 h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 relative">
                 <Image
                   src="/icons/Instagram.png"
                   alt="instagram"
